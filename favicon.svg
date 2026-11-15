@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <clipPath id="badge-clip"><circle cx="400" cy="400" r="330"></circle></clipPath>
+    <g id="weg">
+      <g clip-path="url(#badge-clip)">
+        <rect width="800" height="800" fill="#7fc79f"></rect>
+        <path d="M40 470 250 210 360 340 470 190 760 470z" fill="#1f4a35"></path>
+        <path d="M250 210 300 272 270 262 240 290 210 258z M470 190 525 262 490 250 460 280 430 250z" fill="#fff"></path>
+        <rect y="460" width="800" height="360" fill="#2f6b4c"></rect>
+        <path d="M385 460h30l150 340H235z" fill="#f0c35a"></path>
+        <rect x="388" y="300" width="7" height="165" fill="#fff"></rect>
+        <path d="M395 300h90v20h-90z" fill="#c8102e"></path><path d="M395 320h90v20h-90z" fill="#fff"></path><path d="M395 340h90v20h-90z" fill="#c8102e"></path>
+      </g>
+      <circle cx="400" cy="400" r="330" fill="none" stroke="#fff" stroke-width="22"></circle>
+    </g>
+  </defs>
+  <use href="#weg"></use>
+</svg>
